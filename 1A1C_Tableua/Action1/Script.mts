@@ -1,4 +1,4 @@
-﻿
+﻿'MBT_UFT
 'Call Fn_Component_Start()
 systemutil.CloseProcessByName("Chrome.exe")
 call Launch_Application(Parameter("P_URL_In"))
