@@ -4,7 +4,10 @@ strSearchSite = Parameter("P_Search_Site_In")
 
 'Select Site
 call Enter_Value_In_Edit_Field("txt_Search_Site",strSearchSite,"No")
-        
-Test_Object("ele_CommissionsPreProd").click
+
+If Test_Object("ele_CommissionsPreProd").exist(5) Then
+	Click_Object("ele_CommissionsPreProd")
+End If
+
 
 
