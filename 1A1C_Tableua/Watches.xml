@@ -1,3 +1,6 @@
 ﻿<Properties>
-  <WatchEntry0 value="strreportname" />
+  <WatchEntry0 value="strScriptPath" />
+  <WatchEntry1 value="arrFolders" />
+  <WatchEntry2 value="strLocalPath" />
+  <WatchEntry3 value="Environment.value(&quot;PROJECT_FOLDER_PATH&quot;)" />
 </Properties>
