@@ -10,8 +10,7 @@
 'End If
 '
 
-wait(60)
-Browser("br_User_Defined_Reports").Page("pg_User_Defined_Reports").WebList("tab-shared-widget-166323452040").Select "CommissionsPreProd"
+wait(30)
 
-
-
+Browser("br_Tableau_Server").Page("pg_Tableau_Server").WebElement("ele_CommissionsPreProd_Old").Highlight
+Browser("br_Tableau_Server").Page("pg_Tableau_Server").WebElement("ele_CommissionsPreProd_Old").Click
