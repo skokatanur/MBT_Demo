@@ -1,5 +1,5 @@
 ﻿
-'SystemUtil.Run "Chrome", "https://salesmanagementstage.microfocus.net/#/site"
+SystemUtil.Run "Chrome", "https://salesmanagementstage.microfocus.net/#/site"
 wait(30)
 set WshShell = CreateObject("WScript.Shell")
 WshShell.SendKeys "{ESC}" @@ hightlight id_;_395384_;_script infofile_;_ZIP::ssf2.xml_;_
